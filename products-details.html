@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ayde Seeds - Item Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="image/aydelogo.png" rel="icon" />
+  <link href="image/aydelogo.png" rel="apple-touch-icon" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sono:wght@200;300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    /*--------------------------------------------------------------
+# Blog Details Section
+--------------------------------------------------------------*/
+    .starter-section {
+      padding-bottom: 30px;
+    }
+
+    .starter-section .article {
+      background-color: var(--surface-color);
+      padding: 30px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .starter-section .post-img {
+      margin: -30px -30px 20px -30px;
+      overflow: hidden;
+    }
+
+    .starter-section .title {
+      color: var(--heading-color);
+      font-size: 28px;
+      font-weight: 700;
+      padding: 0;
+      margin: 30px 0;
+    }
+
+    .starter-section .content {
+      margin-top: 20px;
+    }
+
+    .starter-section .content h3 {
+      font-size: 22px;
+      margin-top: 30px;
+      font-weight: bold;
+    }
+
+    .starter-section .content blockquote {
+      overflow: hidden;
+      background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+      padding: 60px;
+      position: relative;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .starter-section .content blockquote p {
+      color: var(--default-color);
+      line-height: 1.6;
+      margin-bottom: 0;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 22px;
+    }
+
+    .starter-section .content blockquote:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background-color: var(--accent-color);
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .starter-section .meta-top {
+      margin-top: 20px;
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+    }
+
+    .starter-section .meta-top ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .starter-section .meta-top ul li+li {
+      padding-left: 20px;
+    }
+
+    .starter-section .meta-top i {
+      font-size: 16px;
+      margin-right: 8px;
+      line-height: 0;
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+    }
+
+    .starter-section .meta-top a {
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+      font-size: 14px;
+      display: inline-block;
+      line-height: 1;
+    }
+
+    .starter-section .meta-bottom {
+      padding-top: 10px;
+      border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    }
+
+    .starter-section .meta-bottom i {
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+      display: inline;
+    }
+
+    .starter-section .meta-bottom a {
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+      transition: 0.3s;
+    }
+
+    .starter-section .meta-bottom a:hover {
+      color: var(--accent-color);
+    }
+
+    .starter-section .meta-bottom .cats {
+      list-style: none;
+      display: inline;
+      padding: 0 20px 0 0;
+      font-size: 14px;
+    }
+
+    .blog-details .meta-bottom .cats li {
+      display: inline-block;
+    }
+
+    .starter-section .meta-bottom .tags {
+      list-style: none;
+      display: inline;
+      padding: 0;
+      font-size: 14px;
+    }
+
+    .starter-section .meta-bottom .tags li {
+      display: inline-block;
+    }
+
+    .starter-section .meta-bottom .tags li+li::before {
+      padding-right: 6px;
+      color: var(--default-color);
+      content: ",";
+    }
+
+    .starter-section .meta-bottom .share {
+      font-size: 16px;
+    }
+
+    .starter-section .meta-bottom .share i {
+      padding-left: 5px;
+    }
+  </style>
+
+
+
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="image/aydelogo.png" alt="">
+        <h1 class="sitename" style="color:green; font-weight: bold; font-size: 24px;">Ayde </h1>&nbsp; <span
+          style="color:white;"> Seeds</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html" class="active">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="service.html">Sevices</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="background-image: url(img/farm.jpg);">
+      <div class="container position-relative">
+        <h1>Experience the Quality</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Product Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+
+
+          <style>
+            .block {
+              display: flex;
+              height: auto;
+              width: auto;
+            }
+
+            .container1 {
+              width: auto;
+              height: auto;
+              background-color: rgb(255, 255, 255);
+              display: block;
+            }
+
+            .container2 {
+              width: auto;
+              height: auto;
+              background-color: red;
+              display: none;
+
+            }
+
+
+            .container3 {
+              width: auto;
+              height: auto;
+              background-color: rgb(128, 83, 0);
+              display: block;
+            }
+
+            .container4 {
+              width: auto;
+              height: auto;
+              background-color: rgb(0, 140, 255);
+              display: none;
+
+            }
+
+            .container5 {
+              width: auto;
+              height: auto;
+              background-color: rgb(117, 0, 128);
+              display: block;
+            }
+
+            .container6 {
+              width: auto;
+              height: auto;
+              background-color: rgb(123, 255, 0);
+              display: none;
+
+            }
+
+
+            .container7 {
+              width: auto;
+              height: auto;
+              background-color: rgba(60, 0, 128, 0.733);
+              display: block;
+            }
+
+            .container8 {
+              width: auto;
+              height: auto;
+              background-color: rgba(255, 115, 0, 0.767);
+              display: none;
+
+            }
+
+            .container9 {
+              width: auto;
+              height: auto;
+              background-color: rgba(169, 247, 169, 0.712);
+              display: block;
+            }
+
+            .container10 {
+              width: auto;
+              height: auto;
+              background-color: rgb(24, 255, 178);
+              display: none;
+
+            }
+
+            .container11 {
+              width: auto;
+              height: auto;
+              background-color: rgb(0, 119, 128);
+              display: block;
+            }
+
+            .container12 {
+              width: auto;
+              height: auto;
+              background-color: rgb(102, 2, 2);
+              display: none;
+
+
+
+            }
+          </style>
+
+          <!-- Starter Section Section -->
+          <section id="starter-section" class="starter-section section">
+
+            <div class="container" data-aos="fade-up">
+              <style>
+                .p {
+                  text-align: justify;
+                }
+
+                .img-fluid {
+                  width: 100%;
+                  height: auto;
+                }
+              </style>
+
+              <!-- <div class="block"> -->
+              <div class="container1" id="container1" style="display: block;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/teff.jpg" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Teff</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Crop Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Teff is one of the ancient Ethiopian traditional food, its also know as the "Ethiopian grain" its
+                      the cornerstone of traditional dishes like injera,
+                      genfo, and keta. Known for its high nutritional value, teff is rich in protein, fiber, and
+                      essential minerals. Its unique nutty flavor and versatility make it a perfect choice for both
+                      savory and sweet dishes. Elevate your meals with teff and enjoy a taste of Ethiopia's rich
+                      culinary heritage.
+                    </p>
+
+                    <p>
+                      Teff stands out for its exceptional nutritional profile. This tiny grain is packed with a
+                      powerhouse of nutrients, including high-quality protein, dietary fiber, and essential minerals
+                      such as calcium, iron, magnesium, and zinc. Its superior nutrient density makes it a valuable
+                      addition to any diet, supporting overall health and well-bein
+                    </p>
+
+                    <blockquote>
+                      <p style="text-align: justify;">
+                        Moreover, teff is a sustainable choice for environmentally-conscious consumers. Its hardy nature
+                        allows it to thrive in diverse growing conditions, and it requires less water compared to many
+                        other grains, making it an eco-friendly option that supports sustainable agriculture.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      The flavor profile of teff is as remarkable as its nutritional benefits. It boasts a unique,
+                      subtly nutty taste that enhances a variety of dishes, making it an incredibly versatile
+                      ingredient. Whether you’re preparing traditional Ethiopian dishes like the spongy, tangy injera or
+                      a hearty bowl of genfo, or even exploring creative new recipes, teff’s distinct flavor adds depth
+                      and richness to your cooking.
+                    </p>
+
+                    <h3>Its Importance</h3>
+                    <p>
+                      Teff's versatility extends beyond traditional uses. It can be used in both savory and sweet
+                      dishes, from baked goods like bread and muffins to porridges and even as a gluten-free alternative
+                      in various recipes. Its ability to adapt to different culinary applications makes it a valuable
+                      pantry staple for both professional chefs and home cooks alike.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      We Provide Teff in a quality
+                    </h3>
+                    <p>
+                      Elevate your meals with teff and experience the unparalleled taste and nutritional benefits of
+                      this ancient grain. By incorporating teff into your diet, you’re not only savoring the unique
+                      flavors of Ethiopian cuisine but also embracing a tradition that has nourished generations.
+                      Discover the richness of teff and let it transform your culinary creations with its healthful
+                      qualities and exquisite taste.
+                    </p>
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+
+
+              <!-- ==================================================================================       container-2 starts    ================================================================================== -->
+
+              <div class="container2" id="container2" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/maize2.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Maize Seeds</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Crop Prodct</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Unlock the full potential of your farming endeavors with our premium maize seeds, expertly
+                      designed for those seeking to cultivate robust and high-yielding maize crops. Maize, commonly
+                      known as corn, is more than just a staple food—it's a fundamental component of global agriculture
+                      and an essential source of nourishment.
+                    </p>
+
+                    <p>
+                      Our maize seeds are selected for their superior quality and performance, ensuring that you receive
+                      seeds with exceptional germination rates and resilience. Each seed is meticulously bred to produce
+                      vigorous plants that thrive under various growing conditions, delivering a strong, healthy crop
+                      that meets your agricultural goals.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Choose our maize Product and experience the benefits of a high-quality product that supports
+                        your farming aspirations and contributes to global food security. Grow with confidence, harvest
+                        with pride, and enjoy the satisfaction of a bountiful maize crop.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Maize is renowned for its role as a vital source of carbohydrates, providing the energy needed to
+                      fuel daily activities and support overall health. Additionally, maize is rich in essential
+                      nutrients such as vitamins A and C, folic acid, and minerals like magnesium and phosphorus. This
+                      makes it not only a staple in many diets but also a valuable crop for enhancing food security and
+                      nutrition.
+                    </p>
+
+                    <h3>Importance of Our Item</h3>
+                    <p>
+                      The benefits of our maize seeds extend beyond just the nutritional value. With our high-quality
+                      seeds, you’ll experience superior plant growth and increased yields, ensuring a plentiful harvest
+                      that supports not only your family but also your community. The robust nature of the maize plants
+                      enables them to withstand various environmental challenges, resulting in a more reliable and
+                      productive crop.
+                      <hr>
+                      <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      We Provide Maize I Quality
+                    </h3>
+                    <p>
+                      With a focus on quality and performance, our maize seeds are designed to help you achieve farming
+                      success and maximize your crop yield. Whether you’re a seasoned farmer or just starting out, our
+                      seeds offer the reliability and excellence needed to cultivate a thriving maize crop that enriches
+                      lives and sustains communities.
+                    </p>
+                    <p>
+                      Choose our maize seeds and experience the benefits of a high-quality product that supports your
+                      farming aspirations and contributes to global food security. Grow with confidence, harvest with
+                      pride, and enjoy the satisfaction of a bountiful maize cro
+                    </p>
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-2 ends    ================================================================================== -->
+
+
+              <!-- ==================================================================================       container-3 starts    ================================================================================== -->
+
+              <div class="container3" id="container3" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/onion.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Onion</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Vegitable Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Discover the cornerstone of flavorful cooking with our premium onions, an essential ingredient in
+                      every kitchen. Renowned for their ability to transform dishes with their distinctive taste and
+                      aroma, our onions are cultivated to the highest standards, ensuring that you receive a product
+                      that meets your culinary needs.
+
+                    <p>
+                      Our onions are grown with meticulous care to deliver the perfect balance of crisp texture and
+                      rich, aromatic flavor. Each onion is harvested at the peak of freshness, ensuring that it brings
+                      the ideal level of sweetness and pungency to your dishes. The high quality of our onions is
+                      reflected in their vibrant color, firm texture, and robust flavor, making them an indispensable
+                      component of any recipe
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Choose our onions for a fresh, flavorful ingredient that enhances every recipe and brings out
+                        the best in your cooking. Enjoy the satisfaction of using high-quality produce that makes every
+                        meal a delight.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Onions are incredibly versatile and play a crucial role in a wide array of dishes. From enhancing
+                      the depth of a simple stir-fry to elevating the complexity of gourmet creations, our onions are
+                      the key to unlocking new dimensions of taste. They provide a foundational flavor that complements
+                      other ingredients and enriches the overall profile of your meals.
+                    </p>
+
+                    <h3>Suitable With Any Dishes</h3>
+                    <p>
+                      Whether you’re preparing a hearty soup, a savory casserole, or a fresh salad, our onions ensure
+                      that your culinary creations are both delicious and memorable. Their ability to caramelize
+                      beautifully and add layers of flavor makes them perfect for a variety of cooking techniques,
+                      including sautéing, roasting, and grilling.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Test The Quality for your self
+                    </h3>
+                    <p>
+                      Beyond their exceptional taste, onions also offer health benefits. They are a rich source of
+                      antioxidants, vitamins, and minerals that contribute to overall well-being, including supporting
+                      heart health and boosting the immune system. Including our onions in your diet adds both flavor
+                      and nutritional value to your meals.
+                    </p>
+                    <p>
+                      Elevate your cooking with our top-quality onions and experience the difference that premium
+                      produce can make. With their crisp texture, rich flavor, and versatile applications, our onions
+                      are sure to become a staple in your kitchen, transforming everyday dishes into extraordinary
+                      culinary experiences.
+                    </p>
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-3 ends    ================================================================================== -->
+
+              <!-- ==================================================================================       container-4 starts    ================================================================================== -->
+
+              <div class="container4" id="container4" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/pepper.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">pepper</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Spice Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Infuse your dishes with a burst of vibrant flavor and aromatic heat using our premium pepper. This
+                      essential spice is renowned for its ability to elevate any meal with its distinctive and dynamic
+                      taste. Whether you're an amateur cook or a seasoned chef, our pepper is designed to enhance your
+                      culinary creations with its exceptional quality.
+                    </p>
+
+                    <p>
+                      Our pepper is sourced from the finest peppercorns, carefully processed to preserve their full
+                      flavor and aromatic qualities. Each peppercorn is selected for its robust taste and aromatic heat,
+                      ensuring that your dishes receive a rich, well-balanced spice profile. The result is a pepper that
+                      not only adds a kick but also enhances the depth and complexity of your meals.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Choose our pepper for a superior seasoning experience that enhances the taste of your food and
+                        adds a delightful kick to your culinary adventures. Enjoy the perfect balance of flavor and heat
+                        with a spice that truly stands out.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Pepper is incredibly versatile and can be used in a wide range of culinary applications. It’s
+                      perfect for seasoning meats, vegetables, and grains, bringing out the natural flavors of your
+                      ingredients. Our pepper is also ideal for adding a flavorful punch to marinades and sauces,
+                      transforming simple dishes into gourmet creations.
+                    </p>
+
+                    <h3>Importance of Pepper</h3>
+                    <p>
+                      In addition to its culinary uses, pepper offers numerous health benefits. It contains piperine, a
+                      compound known for its antioxidant properties and potential to enhance nutrient absorption.
+                      Incorporating our pepper into your diet can support overall health while adding an exciting
+                      element to your meals.</p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Elevate your experience to another uplevel.
+                    </h3>
+                    <p>
+                      Elevate your cooking with our premium pepper and experience the difference that high-quality spice
+                      can make. Its vibrant flavor and aromatic heat will bring a touch of excitement and sophistication
+                      to every dish, from everyday meals to special occasions.
+                    </p>
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-4 ends    ================================================================================== -->
+
+              <!-- ==================================================================================       container-5 starts    ================================================================================== -->
+
+              <div class="container5" id="container5" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/haricoat bean.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Haircoat Bean</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Seed Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Discover the remarkable versatility and nutritional benefits of Haircoat beans, a legume that
+                      stands out for its rich protein content, dietary fiber, and essential vitamins. This powerhouse
+                      ingredient is a staple for those seeking to enhance their diet with wholesome, nutrient-dense
+                      foods.
+                    </p>
+
+                    <p>
+                      Beyond their culinary uses, Haircoat beans are a source of essential vitamins and minerals,
+                      including folate, iron, and potassium. These nutrients play a crucial role in supporting overall
+                      health, from promoting energy levels to enhancing cardiovascular function.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Elevate your cooking and nourish your body with Haircoat beans, a versatile legume that offers
+                        both flavor and health benefits. Enjoy the satisfaction of creating delicious, nutritious meals
+                        that support your well-being and delight your taste buds.
+                    </blockquote>
+
+                    <p>
+                      Haircoat beans are celebrated for their impressive protein profile, making them an excellent
+                      choice for vegetarians and anyone looking to boost their protein intake. Packed with dietary
+                      fiber, these beans support digestive health and contribute to a feeling of fullness, making them a
+                      valuable addition to any meal plan aimed at maintaining a balanced diet.
+                    </p>
+
+                    <h3>Importance Of Haircoat Beans</h3>
+                    <p>
+                      The robust flavor and hearty texture of Haircoat beans make them an ideal ingredient for a wide
+                      range of culinary applications. From enriching hearty stews and soups to adding a nutritious
+                      element to fresh salads, Haircoat beans provide a satisfying and flavorful boost to your dishes.
+                      Their versatility also allows them to be used in casseroles, dips, and even as a meat substitute
+                      in various recipes.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Test Our Haircoat-Beans and See for Your Self
+                    </h3>
+                    Incorporating Haircoat beans into your diet not only diversifies your meal options but also supports
+                    a healthy and balanced lifestyle. Their rich, earthy taste and nutritional benefits make them a
+                    fantastic choice for anyone looking to enrich their diet with high-quality, plant-based protein.
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-25ends    ================================================================================== -->
+
+              <!-- ==================================================================================       container-6 starts    ================================================================================== -->
+
+              <div class="container6" id="container6" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/sunflower seeds.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Sunflower Seed</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Seed Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2022</time></a>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Discover the delightful crunch and numerous health benefits of our premium sunflower seeds. These
+                      versatile seeds are more than just a tasty snack; they’re a powerhouse of nutrition that enhances
+                      a variety of dishes and supports overall well-being.
+                    </p>
+
+                    Incorporating sunflower seeds into your diet is an easy way to boost your intake of healthy fats,
+                    protein, and essential nutrients. They offer a satisfying crunch and a wealth of health benefits,
+                    making them an excellent choice for both snacking and cooking.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Enjoy the many benefits of our sunflower seeds and add a touch of nutritious crunch to your
+                        favorite recipes. With their rich nutritional profile and delicious taste, sunflower seeds are
+                        sure to become a cherished part of your dietary routine
+                      </p>
+                    </blockquote>
+
+                    Our sunflower seeds are packed with healthy fats, including monounsaturated and polyunsaturated
+                    fats, which are essential for heart health. These beneficial fats help to maintain healthy
+                    cholesterol levels and support cardiovascular function. In addition to healthy fats, sunflower seeds
+                    are an excellent source of high-quality protein, making them a great option for those seeking
+                    plant-based protein sources.
+                    </p>
+
+                    <h3>Importance Of SeedFlower Seeds</h3>
+                    <p>
+                      Rich in vitamins and minerals, sunflower seeds are a valuable addition to your diet. They are
+                      particularly high in vitamin E, an antioxidant that helps protect cells from oxidative damage and
+                      supports immune function. Additionally, sunflower seeds provide important minerals such as
+                      magnesium, phosphorus, and selenium, which contribute to bone health, energy production, and
+                      overall vitality.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Discover the test in each drop
+                    </h3>
+                    <p>
+                      Whether enjoyed on their own as a crunchy, satisfying snack or incorporated into a variety of
+                      recipes, sunflower seeds offer versatility and flavor. Add them to salads for a delightful crunch,
+                      mix them into granola bars for added texture, or include them in baked goods to enhance both taste
+                      and nutritional value. Their nutty, slightly sweet flavor complements a wide range of dishes,
+                      making them a staple ingredient in any kitchen.
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-6 ends    ================================================================================== -->
+
+              <!-- ==================================================================================       container-7 starts    ================================================================================== -->
+
+              <div class="container7" id="container7" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/spice2.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Spice Products</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Spice Products</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Embark on a flavorful journey with our exquisite range of Ethiopian traditional spices, each
+                      designed to bring an authentic and rich taste to your culinary creations. Our collection includes
+                      a variety of carefully crafted spice blends that embody the essence of Ethiopian cuisine,
+                      transforming everyday dishes into extraordinary culinary experiences..
+                    </p>
+
+                    <p>
+                      Our spice products feature a selection of vibrant and aromatic ingredients, including the renowned
+                      berbere and pepper, among others. Berbere is a quintessential Ethiopian spice blend known for its
+                      complex, warming flavor profile that includes a mix of chili peppers, garlic, ginger, and an array
+                      of other spices. It adds depth and a tantalizing kick to stews, meats, and vegetables, embodying
+                      the heart and soul of Ethiopian cooking..
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Experience the unique taste of Ethiopia with our premium spice blends and transform your cooking
+                        with authentic, high-quality ingredients. Elevate your meals with the rich, complex flavors of
+                        our spices and enjoy a culinary adventure that celebrates the rich heritage of Ethiopian
+                        cuisine.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Pepper, another cornerstone of our spice collection, delivers a robust and aromatic heat that
+                      enhances the flavor of a wide range of dishes. Its versatility makes it perfect for seasoning,
+                      marinades, and sauces, allowing you to customize the flavor profile of your meals according to
+                      your preference.
+                    </p>
+
+                    <h3>Importance of Spices</h3>
+                    <p>
+                      Our spices are carefully selected and blended to ensure the highest quality and authenticity. Each
+                      spice is chosen for its ability to add distinct, rich flavors that elevate your dishes and bring a
+                      taste of Ethiopia to your kitchen. Whether you’re preparing traditional Ethiopian recipes or
+                      experimenting with new ones, our spice products provide the perfect balance of heat, sweetness,
+                      and earthiness.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Test Our Traditional Spice Products.
+                    </h3>
+                    <p>
+                      Incorporating our Ethiopian spices into your cooking not only enhances the taste of your meals but
+                      also introduces you to the vibrant and diverse flavors of Ethiopian cuisine. Our spices are
+                      designed to inspire creativity in the kitchen, allowing you to create dishes that are as flavorful
+                      as they are memorable
+                    </p>
+                    <p>
+                      Pepper, another cornerstone of our spice collection, delivers a robust and aromatic heat that
+                      enhances the flavor of a wide range of dishes. Its versatility makes it perfect for seasoning,
+                      marinades, and sauces, allowing you to customize the flavor profile of your meals according to
+                      your preference.
+                    </p>
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-7 ends    ================================================================================== -->
+
+              <!-- ==================================================================================       container-8 starts    ================================================================================== -->
+
+              <div class="container8" id="container8" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/beekeeping2.jpg" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">BeeKeeping</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Animal Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Immerse yourself in the delightful world of beekeeping with our premium honey and related
+                      products, each crafted to offer the highest quality and most authentic taste. Our honey is a
+                      testament to the purity and natural goodness that comes from dedicated beekeeping practices,
+                      providing a versatile ingredient that enhances both your kitchen and your well-being.
+                    </p>
+
+                    <p>
+                      Our honey is harvested from carefully tended hives, ensuring that it is pure, natural, and packed
+                      with essential nutrients. Rich in vitamins, minerals, and antioxidants, our honey is perfect for
+                      sweetening your tea, adding depth to baked goods, or enjoying straight from the spoon. Its smooth
+                      texture and complex flavor profile make it a luxurious addition to any meal or snack.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Our beekeeping practices are designed to promote the well-being of both the bees and the
+                        environment. By choosing our honey and related products, you are supporting sustainable
+                        beekeeping practices that contribute to environmental conservation and biodiversity.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Beekeeping is not just about honey; it’s also about supporting a healthier environment. By
+                      practicing beekeeping, we contribute to vital pollination services that benefit not only the
+                      production of honey but also the broader ecosystem. Bees play a crucial role in pollinating
+                      plants, which supports biodiversity and enhances the productivity of both wild and cultivated
+                      plants. This ecological service is essential for maintaining the health of our environment and
+                      ensuring the continued availability of diverse flora.
+                    </p>
+
+                    <h3>Importance Of Honey</h3>
+                    <p>
+                      In addition to its culinary uses, honey has been cherished for its potential health benefits for
+                      centuries. Its natural antimicrobial properties can support overall health, and it is often used
+                      in traditional remedies to soothe sore throats and promote digestive wellness.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Pure Honey From Nature.
+                    </h3>
+                    <p>
+                      Experience the sweetness of nature with our premium honey and explore the many ways it can enrich
+                      your life. Enjoy the pure, natural flavor of our honey while supporting beekeeping efforts that
+                      foster environmental health and biodiversity. Discover the benefits of honey and the impact of
+                      responsible beekeeping on both your palate and the planet.
+                    </p>
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Creative</a></li>
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-8 ends    ================================================================================== -->
+
+
+
+              <!-- ==================================================================================       container-9 starts    ================================================================================== -->
+
+              <div class="container9" id="container9" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/fish.jpg" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Fish Farming</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Aquaculture Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Dive into the world of aquaculture with our top-quality fish farming products, designed to deliver
+                      a consistent supply of fresh, high-quality fish that enhances your diet and supports sustainable
+                      practices. Our commitment to excellence ensures that you receive fish that is not only delicious
+                      but also raised with the utmost care for both taste and environmental impact..
+                    </p>
+
+                    <p>
+                      We prioritize sustainable practices in our fish farming to support healthy aquatic ecosystems and
+                      minimize environmental impact. Our methods include responsible feed management, water quality
+                      monitoring, and efficient resource use to promote the well-being of the fish and the surrounding
+                      environment. By supporting our fish farming, you contribute to the preservation of natural
+                      habitats and the protection of biodiversity.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Enjoy the peace of mind that comes with knowing your fish is both delicious and environmentally
+                        friendly. Our commitment to sustainable fish farming practices ensures that you can savor the
+                        benefits of fresh, high-quality fish while supporting responsible aquaculture.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Our fish farming operations are dedicated to producing fish that meets the highest standards of
+                      freshness and quality. By employing advanced aquaculture techniques and maintaining rigorous
+                      quality controls, we ensure that our fish is tender, flavorful, and rich in essential nutrients.
+                      Whether you’re preparing a family dinner or a gourmet meal, our fish provides a superior taste
+                      experience that stands out.
+                    </p>
+
+                    <h3>Advantage of Fish</h3>
+                    <p>
+                      Fish is a vital source of high-quality protein, omega-3 fatty acids, and essential vitamins and
+                      minerals. Incorporating our farm-fresh fish into your diet provides numerous health benefits,
+                      including support for heart health, brain function, and overall well-being. Our fish is not only a
+                      nutritious choice but also a versatile ingredient that can be used in a wide variety of dishes,
+                      from savory seafood entrées to light salads.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Fresh Fish from Fresh water.
+                    </h3>
+                    <p>
+                      Experience the excellence of our fish farming products and taste the difference that careful
+                      farming and sustainable practices make. Enjoy farm-fresh fish that delivers on both flavor and
+                      environmental stewardship, and elevate your meals with a choice that’s good for you and the
+                      planet.
+                    </p>
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-9 ends    ================================================================================== -->
+
+
+              <!-- ==================================================================================       container-10 starts    ================================================================================== -->
+
+              <div class="container10" id="container10" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/bull2.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Bull Fattening</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Animal Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Optimize the growth and performance of your bulls with our comprehensive bull fattening program,
+                      meticulously designed to achieve superior weight gain and health. Whether preparing bulls for
+                      market or breeding, our program combines high-quality feed with expert management practices to
+                      ensure that your animals reach their full potential.
+                    </p>
+
+                    <p>
+                      Our bull fattening program is designed with flexibility in mind, allowing us to tailor our
+                      approach to meet the unique needs of each client. Whether you are preparing bulls for sale,
+                      breeding, or other purposes, our program provides the support and expertise needed to achieve the
+                      best possible outcomes.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Experience the advantages of a dedicated bull fattening program that prioritizes quality,
+                        health, and growth. Trust our expertise to help you achieve your goals and exceed industry
+                        standards, providing you with bulls that are prepared to excel in their market or breeding
+                        roles.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Our bull fattening program is centered on delivering exceptional results through a carefully
+                      crafted feeding regimen. We provide nutritionally balanced and high-quality feed that promotes
+                      rapid and healthy weight gain, ensuring that your bulls are well-prepared for their intended
+                      purpose. The feed is formulated to meet the specific dietary needs of bulls at various stages of
+                      growth, supporting optimal development and overall well-being.
+                    </p>
+
+                    <h3>What We Do?</h3>
+                    <p>
+                      In addition to premium feed, our program incorporates effective management practices that focus on
+                      animal health and welfare. We implement regular health checks, provide appropriate veterinary
+                      care, and maintain optimal living conditions to support the growth and comfort of the bulls. Our
+                      commitment to high standards ensures that each bull is robust, healthy, and ready to meet market
+                      or breeding requirements.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.png" class="img-fluid" alt="" />
+
+                    <h3>
+                      Watch For Your Self.
+                    </h3>
+                    <p>
+                      By choosing our bull fattening program, you benefit from a holistic approach that combines
+                      top-quality feed with advanced management practices. Our focus on excellence ensures that you
+                      receive bulls that are not only well-fattened but also exhibit optimal health and performance.
+                    </p>
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-10 ends    ================================================================================== -->
+
+
+              <!-- ==================================================================================       container-11 starts    ================================================================================== -->
+
+              <div class="container11" id="container11" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/compost.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Compost Production</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">fertilizer Product</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Transform your soil and enhance your farming or gardening success with our premium compost,
+                      crafted from high-quality organic materials. Our compost is designed to enrich soil fertility,
+                      support plant health, and boost crop yields, making it an invaluable addition to any sustainable
+                      farming or gardening effort.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Our compost also supports eco-friendly and sustainable farming practices. By utilizing organic
+                        materials that might otherwise end up in landfills, we contribute to waste reduction and promote
+                        a circular economy. This environmentally conscious approach not only benefits your soil but also
+                        supports broader sustainability goals.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Incorporating our compost into your soil delivers a wealth of benefits. The rich blend of
+                      nutrients, including nitrogen, phosphorus, and potassium, supports robust plant development and
+                      increases resistance to pests and diseases. By improving soil fertility, our compost helps plants
+                      grow stronger and produce higher yields, making it an excellent choice for both garden enthusiasts
+                      and professional farmers.
+                    </p>
+
+                    <h3>Our Compost</h3>
+                    <p>
+                      It is produced through a meticulous process that ensures the highest quality and effectiveness. By
+                      recycling organic materials such as plant residues, animal manures, and food scraps, we create a
+                      nutrient-rich compost that provides essential elements for soil health. This organic matter not
+                      only improves soil structure but also enhances its ability to retain moisture, which is crucial
+                      for healthy plant growth.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Suitable For Nature.
+                    </h3>
+                    <p>
+                      Whether you’re cultivating a thriving garden or managing a productive farm, our premium compost
+                      offers a reliable and effective solution for enhancing soil health. It’s easy to use, and its
+                      benefits are evident in the vibrant growth and improved productivity of your plants.
+                    </p>
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-11 ends    ================================================================================== -->
+
+
+              <!-- ==================================================================================       container-12 starts    ================================================================================== -->
+
+              <div class="container12" id="container12" style="display: none;">
+                <article class="article">
+                  <div class="post-img">
+                    <img src="new img/sesame2.png" alt="" class="img-fluid" />
+                  </div>
+
+                  <h2 class="title">Sesame Seeds</h2>
+
+                  <div class="meta-top">
+                    <ul>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-person"></i>
+                        <a href="products-details.html">Seed Products</a>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <i class="bi bi-clock"></i>
+                        <a href="products-details.html"><time datetime="2020-01-01">Jan 1,
+                            2024</time></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End meta top -->
+
+                  <div class="content">
+                    <p>
+                      Discover the power of a small seed with our premium sesame seeds, a versatile ingredient renowned
+                      for its rich flavor and impressive nutritional profile. These tiny yet mighty seeds pack a punch
+                      with their numerous health benefits and culinary versatility, making them an essential addition to
+                      your kitchen.
+                    </p>
+
+                    <blockquote>
+                      <p>
+                        Experience the delightful taste and nutritional advantages of our premium sesame seeds and
+                        elevate your cooking with a simple yet powerful ingredient. Embrace the benefits of sesame seeds
+                        and savor their contribution to a healthy and delicious diet.
+                      </p>
+                    </blockquote>
+
+                    <p>
+                      Our sesame seeds are selected for their exceptional quality and flavor, ensuring that you receive
+                      seeds that are both delicious and nutrient-dense. Their rich, nutty taste adds a delightful depth
+                      to a variety of dishes, whether you're baking, cooking, or simply using them as a topping.
+                      Incorporate them into bread, cookies, or granola for added texture and flavor, or sprinkle them
+                      over salads and stir-fries for a satisfying crunch.
+
+                    <h3>Importance of sesame.</h3>
+                    <p>
+                      Beyond their culinary uses, sesame seeds are a nutritional powerhouse. They are an excellent
+                      source of essential nutrients, including calcium, which supports strong bones and teeth; iron,
+                      which is crucial for healthy blood and energy levels; and antioxidants, which help protect your
+                      cells from oxidative stress and support overall health. These nutrients contribute to a
+                      well-rounded diet and offer numerous health benefits.
+                    </p>
+                    <hr>
+                    <img src="assets/img/blog/blog-inside-post.jpg" class="img-fluid" alt="" />
+
+                    <h3>
+                      Best for Healthy Fat.
+                    </h3>
+                    <p>
+                      The high levels of healthy fats in sesame seeds also contribute to heart health, helping to
+                      maintain healthy cholesterol levels and support cardiovascular function. Their fiber content aids
+                      in digestion and promotes a feeling of fullness, making them a valuable addition to a balanced
+                      diet.
+                    </p>
+
+                  </div>
+                  <!-- End post content -->
+
+                  <div class="meta-bottom">
+                    <i class="bi bi-folder"></i>
+                    <ul class="cats">
+                      <li><a href="#">Business</a></li>
+                    </ul>
+
+                    <i class="bi bi-tags"></i>
+                    <ul class="tags">
+                      <li><a href="#">Production</a></li>
+                      <li><a href="#">Service</a></li>
+                    </ul>
+                  </div>
+                  <!-- End meta bottom -->
+                </article>
+              </div>
+              <!-- ==================================================================================       container-12 ends    ================================================================================== -->
+
+
+
+
+
+              <!-- </div> -->
+
+
+            </div>
+
+
+
+          </section><!-- /Starter Section Section -->
+
+
+          <!-- Comment Form Section -->
+          <section id="comment-form" class="comment-form section">
+            <div class="container">
+              <h4>Post Comment</h4>
+
+              <form action="" method="post" role="form" class="php-email-form" id="contact-form">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <input type="text" name="user_name" class="form-control form-control-lg form-control-a"
+                        placeholder="Your Name" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <input name="user_email" type="email" class="form-control form-control-lg form-control-a"
+                        placeholder="Your Email" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                      <input type="text" name="user_subject" class="form-control form-control-lg form-control-a"
+                        placeholder="Subject" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea name="user_message" class="form-control" name="message" cols="45" rows="8"
+                        placeholder="Message" required></textarea>
+                    </div>
+                  </div>
+
+                  <p class="contact__message" id="contact-message"></p>
+
+                  <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center">
+                      <button type="submit" class="btn btn-a">Send Message</button>
+                    </div>
+
+                    <style>
+                      .btn.btn-a {
+                        border: none;
+                        background-color: rgb(9, 102, 45);
+                        color: white;
+                        border-radius: 20px;
+                        padding: 10px 20px;
+                        font-size: 14px;
+                        cursor: pointer;
+                      }
+
+                      .btn.btn-a:hover {
+                        background-color: rgb(99, 185, 99);
+                      }
+                    </style>
+                  </div>
+              </form>
+
+            </div>
+          </section>
+          <!-- /Comment Form Section -->
+        </div>
+
+
+        <div class="col-lg-4 sidebar">
+          <div class="widgets-container">
+
+            <style>
+              .product-button {
+                background-color: white;
+                color: rgb(95, 95, 95);
+                padding: 10px 20px;
+                border: none;
+                border-radius: 1px;
+                cursor: pointer;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;
+                width: 100%;
+                /* Full width */
+                text-align: left;
+                /* Align text to the left */
+              }
+
+              .product-button:hover {
+                background-color: #0b7041;
+                color: white;
+                font-weight: bold;
+                box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
+                transform: translateY(-2px);
+              }
+
+              .custom-list {
+                list-style-type: none;
+                padding-left: 20px;
+              }
+
+              .custom-list li {
+                position: relative;
+                padding-left: 20px;
+                margin-bottom: 10px;
+                /* Space between buttons */
+              }
+
+              .custom-list li:before {
+                content: "★";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                /* Vertical center */
+                transform: translateY(-50%);
+                color: #0b7041;
+                font-size: 16px;
+              }
+            </style>
+
+
+            <!-- Categories Widget -->
+            <div class="categories-widget widget-item">
+              <h3 class="widget-title">Categories</h3>
+              <hr>
+
+              <ul class="mt-3" type="star">
+                <button class="product-button" id="btn_container1">Teff</button>
+                <button class="product-button" id="btn_container2">Maize-Seed</button>
+                <button class="product-button" id="btn_container3">Onion</button>
+                <button class="product-button" id="btn_container4">Pepper</button>
+                <button class="product-button" id="btn_container5">Haircoat-Bean</button>
+                <button class="product-button" id="btn_container6">Sunflower-Seeds</button>
+                <button class="product-button" id="btn_container7">Spice-Product</button>
+                <button class="product-button" id="btn_container8">Beekeeping</button>
+                <button class="product-button" id="btn_container9">Fish-Farming</button>
+                <button class="product-button" id="btn_container10">Bull-Fattening</button>
+                <button class="product-button" id="btn_container11">Compost-Production</button>
+                <button class="product-button" id="btn_container12">Sesame Seeds</button>
+
+
+              </ul>
+            </div>
+            <!--/Categories Widget -->
+
+            <!-- Recent Posts Widget -->
+            <div class="recent-posts-widget widget-item">
+              <h3 class="widget-title">Comming Up</h3>
+
+              <div class="post-item">
+                <img src="new imgg/construction.avif" alt="" class="flex-shrink-0" />
+                <div>
+                  <h4>
+                    <a href="products-details.html">Construction</a>
+                  </h4>
+                  <!-- <time datetime="2020-01-01">Jan 1, 2024</time> -->
+                </div>
+              </div>
+              <!-- End recent post item-->
+
+              <div class="post-item">
+                <img src="new imgg/hotel.jpg" alt="" class="flex-shrink-0" />
+                <div>
+                  <h4>
+                    <a href="products-details.html">Hotel and Restaurant</a>
+                  </h4>
+                  <!-- <time datetime="2020-01-01">Jan 1, 2024</time> -->
+                </div>
+              </div>
+              <!-- End recent post item-->
+
+              <div class="post-item">
+                <img src="new imgg/insurance.jpg" alt="" class="flex-shrink-0" />
+                <div>
+                  <h4>
+                    <a href="products-details.html">Finance and Insurance Intermidation</a>
+                  </h4>
+                  <!-- <time datetime="2020-01-01">Jan 1, 2024</time> -->
+                </div>
+              </div>
+              <!-- End recent post item-->
+
+              <div class="post-item">
+                <img src="new img/realestate.png" alt="" class="flex-shrink-0" />
+                <div>
+                  <h4>
+                    <a href="products-details.html">RealState Business</a>
+                  </h4>
+                  <!-- <time datetime="2020-01-01">Jan 1, 2024</time> -->
+                </div>
+              </div>
+              <!-- End recent post item-->
+
+              <div class="post-item">
+                <img src="new img/property and home.jpg" alt="" class="flex-shrink-0" />
+                <div>
+                  <h4>
+                    <a href="products-details.html">Property and Home For Sale</a>
+                  </h4>
+                  <!-- <time datetime="2020-01-01">Jan 1, 2024</time> -->
+                </div>
+              </div>
+              <!-- End recent post item-->
+            </div>
+            <!--/Recent Posts Widget -->
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+  </main>
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h1 class="fw-bold text-primary mb-4">Ayde<span class="text-white"> Seeds</span></h1>
+          <p>A Company with wider and quality Products!
+          </p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Address</h5>
+          <p><i class="fa fa-map-marker-alt me-3"></i>Addis Ababa, Ethiopia</p>
+          <p><i class="fa fa-phone-alt me-3"></i>+251911458539</p>
+          <p><i class="fa fa-envelope me-3"></i>meskigts@gmail.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Quick Links</h5>
+          <a class="btn btn-link" href="about.html">About Us</a>
+          <a class="btn btn-link" href="contact.html">Contact Us</a>
+          <a class="btn btn-link" href="service.html">Services</a>
+          <a class="btn btn-link" href="product.html">products</a>
+          <a class="btn btn-link" href="gallery.html">Gallery</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a href="#">Ayde-Seeds-Plc</a>, All Right Reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            Designed By <a href="https://tradethiopia.com/" target="_blank">Trade Ethiopia </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Buttons to toggle containers
+    var btn_container1 = document.getElementById("btn_container1");
+    var btn_container2 = document.getElementById("btn_container2");
+    var btn_container3 = document.getElementById("btn_container3");
+    var btn_container4 = document.getElementById("btn_container4");
+    var btn_container5 = document.getElementById("btn_container5");
+    var btn_container6 = document.getElementById("btn_container6");
+    var btn_container7 = document.getElementById("btn_container7");
+    var btn_container8 = document.getElementById("btn_container8");
+    var btn_container9 = document.getElementById("btn_container9");
+    var btn_container10 = document.getElementById("btn_container10");
+    var btn_container11 = document.getElementById("btn_container11");
+    var btn_container12 = document.getElementById("btn_container12");
+
+
+    // Containers to show/hide
+    var container1 = document.getElementById("container1");
+    var container2 = document.getElementById("container2");
+    var container3 = document.getElementById("container3");
+    var container4 = document.getElementById("container4");
+    var container5 = document.getElementById("container5");
+    var container6 = document.getElementById("container6");
+    var container7 = document.getElementById("container7");
+    var container8 = document.getElementById("container8");
+    var container9 = document.getElementById("container9");
+    var container10 = document.getElementById("container10");
+    var container11 = document.getElementById("container11");
+    var container12 = document.getElementById("container12");
+
+    // Set initial display state
+    window.onload = function () {
+      container1.style.display = "block"; // Display container1 initially
+      container2.style.display = "none";  // Hide container2 initially
+      container3.style.display = "none";  // Hide container3 initially
+      container4.style.display = "none";  // Hide container4 initially
+      container5.style.display = "none";  // Hide container5 initially
+      container6.style.display = "none";  // Hide container6 initially
+      container7.style.display = "none";  // Hide container7 initially
+      container8.style.display = "none";  // Hide container8 initially
+      container9.style.display = "none";  // Hide container9 initially
+      container10.style.display = "none";  // Hide container10 initially
+      container11.style.display = "none";  // Hide container11 initially
+      container12.style.display = "none";  // Hide container12 initially
+
+    };
+
+    // Event listeners for the buttons
+    btn_container1.addEventListener('click', () => {
+      container1.style.display = "block";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container2.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "block";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+
+    btn_container3.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "block";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container4.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "block";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container5.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "block";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container6.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "block";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container7.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "block";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container8.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "block";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container9.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "block";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container10.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "block";
+      container11.style.display = "none";
+      container12.style.display = "none";
+    });
+
+    btn_container11.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "block";
+      container12.style.display = "none";
+    });
+
+    btn_container12.addEventListener('click', () => {
+      container1.style.display = "none";
+      container2.style.display = "none";
+      container3.style.display = "none";
+      container4.style.display = "none";
+      container5.style.display = "none";
+      container6.style.display = "none";
+      container7.style.display = "none";
+      container8.style.display = "none";
+      container9.style.display = "none";
+      container10.style.display = "none";
+      container11.style.display = "none";
+      container12.style.display = "block";
+    });
+
+
+
+
+  </script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    /*==================EMAIL JS=====================*/
+    const contactForm = document.getElementById("contact-form"),
+      contactMessage = document.getElementById("contact-message");
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      //serviceID - temeplet - #form - publickey
+
+      emailjs
+        .sendForm(
+          "service_97k6jk2",  /* service id */
+          "template_yzbv9dc",   /* template id */
+          "#contact-form",    /* the html form */
+          "0ff1luhGtr-b_Nd6S"   /* public key */
+        )
+        .then(
+          () => {
+            // Show sent message
+            contactMessage.textContent = "Message sent successfully ✅";
+
+            // Remove message after five seconds
+            setTimeout(() => {
+              contactMessage.textContent = "";
+            }, 3000);
+
+            //Clear input Fields
+            contactForm.reset();
+          },
+          () => {
+            // Show error message
+            contactMessage.textContent =
+              "Message not sent (service error) ❌";
+          }
+        );
+    };
+    contactForm.addEventListener("submit", sendEmail);
+  </script>
+
+</body>
+
+</html>

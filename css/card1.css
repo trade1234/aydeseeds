@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Added fallback font */
+}
+
+.mycontainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px 50px;
+  padding: 50px;
+  background: radial-gradient(
+    circle,
+    rgba(11, 147, 5, 0.7483368347338936) 0%,
+    rgba(1, 27, 1, 1) 100%
+  );
+}
+
+.mycontainer .mycard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  transition: 0.5s ease;
+}
+
+.mycontainer .mycard:hover {
+  height: 400px;
+}
+
+.mycontainer .mycard .imgbx {
+  position: absolute;
+  top: 20px;
+  width: 300px;
+  height: 220px;
+  background: black;
+  border-radius: 12px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.mycontainer .mycard:hover .imgbx {
+  top: -100px;
+  transform: scale(0.75); /* Updated scale to transform */
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.mycontainer .mycard .imgbx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mycontainer .mycard .content {
+  position: absolute; /* Fixed typo */
+  top: 253px;
+  width: 100%;
+  padding: 0 30px;
+  height: 35px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s; /* Added transition for smooth animation */
+}
+
+.mycontainer .mycard:hover .content {
+  top: 130px;
+  height: 250px;
+}
+
+.mycontainer .mycard .content h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var (--clr);
+}
+
+.mycontainer .mycard .content p {
+  color: rgb(0, 0, 0);
+}
+
+.mycontainer .mycard .content a {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  background: var(--clr);
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Popup content styling */
+.popup_content {
+  margin: 10px;
+  padding: 10px;
+  max-width: 60%;
+  border: 2px solid #444;
+  background: #fff;
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Initially hide popup */
+#popup2 {
+  display: none; /* Hide by default */
+}
+
+/* Overlay styling */
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  position: fixed; /* Ensure it covers the screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; /* Hide by default, show when needed */
+}
+
+/* Button to open the popup */
+.mycontainer .mycard .content .popup2_open {
+  min-width: 150px;
+  min-height: 50px;
+  padding: 5px;
+  background: rgb(1, 121, 41);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer; /* Indicate that it's clickable */
+}
+
+/* Button hover effect */
+.mycontainer .mycard .content .popup2_open:hover {
+  background: rgb(0, 44, 0);
+  border-radius: 20px;
+  transition: background 0.5s, border-radius 0.5s; /* Smooth transition */
+}
+
+/* end of the popout part */
